@@ -18,6 +18,7 @@
     margin: 10px 30px 10px 0;
 }
 
+
 .filters .locations,
 .filters .amenities {
     height: 100%;
@@ -76,6 +77,12 @@
 
 .popover h2 {
     font-size: 16px;
+    padding-left: 30px;
+}
+
+.popover h4 {
+    font-size: 14px;
+    padding-left: 30px;
 }
 
 .popover {

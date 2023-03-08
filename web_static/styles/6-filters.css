@@ -88,11 +88,6 @@
 .popover {
     display: none;
     background-color: #fafafa;
-
-}
-
-.li {
-    display: none;
 }
 
 .filters .locations:hover .popover,

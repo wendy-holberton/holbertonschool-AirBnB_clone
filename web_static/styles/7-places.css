@@ -8,14 +8,18 @@
     text-align: center;
     display: block;
     margin: 0;
-    padding: 0;
+    padding-left: 30px;
+}
+
+.container .places {
+    text-align: center;
 }
 
 .container .places article {
     width: 390px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 20px;
     border: solid#ff5a5f 1px;
     border-radius: 4px;
-
+    display: inline-block;
 }

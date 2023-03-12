@@ -8,6 +8,9 @@
     float: right;
     border-radius: 60px;
     margin-top: -60px;
+    padding: 0;
+    display: flex;
+    align-items: center;
 
 
 }
@@ -18,7 +21,7 @@
     border-bottom: solid#DDDDDD 1px;
     display: flex;
     align-items: center;
-
+    margin: 10px;
 }
 
 .max_guest,
@@ -26,8 +29,76 @@
 .number_bathrooms {
     width: 100px;
     padding: 0;
-    margin: 10px;
+    margin: 0;
     display: flex;
     text-align: center;
 
+
+}
+
+.max_guest img {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.number_rooms img {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.number_bathrooms img {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+.information h4 {
+    font-size: small;
+    margin: 0;
+    display: flex;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.user span {
+    margin: 5px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.description p {
+    font-size: 12px;
+    padding-right: 10px;
+    margin-top: -15px;
+    text-align: left;
+
+}
+
+article {
+
+    width: 50%;
+    height: 300px;
+    float: left
+}
+
+
+
+article h2 {
+    height: 50px;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
 }
